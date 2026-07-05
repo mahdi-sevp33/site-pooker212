@@ -2,17 +2,17 @@
   "name": "random-passe",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://github.com/mahdi-sevp33/easy-light-password-saver#readme",
+  "homepage": "https://github.com/mahdi-sevp33/site-pooker212#readme",
   "bugs": {
-    "url": "https://github.com/mahdi-sevp33/easy-light-password-saver/issues"
+    "url": "https://github.com/mahdi-sevp33/site-pooker212/issues"
   },
   "repository": {
-    "type": "module",
-    "url": "git+https://github.com/mahdi-sevp33/easy-light-password-saver.git"
+    "type": "git",
+    "url": "git+https://github.com/mahdi-sevp33/site-pooker212.git"
   },
   "license": "ISC",
   "author": "mahdi-kin",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
