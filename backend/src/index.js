@@ -1,8 +1,9 @@
 import dotenv from "dotenv"
-import connectDB from "./config/database"
-import app from "./app"
+import connectDB from './config/database.js';
+import app from './app.js';
+import mongoose  from "mongoose";
 
-const mongoose=require("mongoose")
+
 
 
 dotenv.config({
@@ -21,7 +22,7 @@ const connectServer=async ()=>{
     }
     try
     {
-        app.listen(process.env.PORT || 5000,async()=>{
+        app.listen(process.env.PORT || 27017,async()=>{
             console.log(`connected to port 
                 ${process.env.PORT}`)
         })
@@ -32,6 +33,7 @@ const connectServer=async ()=>{
     
     
 }
+
 
 connectServer()
 
